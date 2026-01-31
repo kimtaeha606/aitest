@@ -16,4 +16,9 @@ public class MonsterSO : ScriptableObject
     public int HP;
     public int Damage;
     public float Speed;
+    public float SpawnInterval;
+    public float Mulhp;
+    public float Muldamage;
+    public float Mulspeed;
+    public float MulspawnInterval;
 }

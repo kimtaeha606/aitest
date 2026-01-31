@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Fast
   m_EditorClassIdentifier: Assembly-CSharp::MonsterSO
   monsterType: 0
-  prefab: {fileID: 0}
-  HP: 0
-  Damage: 0
-  Speed: 0
+  prefab: {fileID: 3217302443203891100, guid: 87a8f9c39cb6a0745aac17f124404a0c, type: 3}
+  HP: 100
+  Damage: 15
+  Speed: 20
+  SpawnInterval: 10
+  Mulhp: 1.1
+  Muldamage: 1.2
+  Mulspeed: 1.4
+  MulspawnInterval: 1.2
