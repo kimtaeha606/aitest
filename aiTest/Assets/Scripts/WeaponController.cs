@@ -8,7 +8,7 @@ public class WeaponController : MonoBehaviour
 
     [Header("Hitscan")]
     [SerializeField] private float range = 100f;
-    [SerializeField] private int damage = 10;
+    [SerializeField] private int damage = 200;
     [SerializeField] private LayerMask hitMask = ~0; // 기본: 전부
 
     public void OnAttack()
@@ -16,7 +16,7 @@ public class WeaponController : MonoBehaviour
         if (muzzle == null) return;
 
         Vector3 origin = muzzle.position;
-        Vector3 dir    = muzzle.up;
+        Vector3 dir    = muzzle.forward;
 
         if (Physics.Raycast(origin, dir, out RaycastHit hit, range, hitMask, QueryTriggerInteraction.Ignore))
         {
