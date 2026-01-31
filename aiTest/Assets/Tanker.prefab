@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -9015773903731043396}
   - component: {fileID: 7139412006995846897}
   - component: {fileID: 1218783517872119266}
+  - component: {fileID: 4304421878618170685}
   m_Layer: 0
   m_Name: Tanker
   m_TagString: Untagged
@@ -185,3 +186,16 @@ MonoBehaviour:
   currentHp: 0
   currentDamage: 0
   currentSpeed: 0
+--- !u!114 &4304421878618170685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155752645470862190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d76154129f67c40a39ab57dd96cdc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  hp: 100

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 789497700394110966}
   - component: {fileID: -3480615894840727064}
   - component: {fileID: -6154881250671635137}
+  - component: {fileID: 8124555296811029750}
   m_Layer: 0
   m_Name: Fast
   m_TagString: Untagged
@@ -185,3 +186,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterChasePlayer
   playerTag: Player
   flattenY: 1
+--- !u!114 &8124555296811029750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217302443203891100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d76154129f67c40a39ab57dd96cdc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  hp: 100

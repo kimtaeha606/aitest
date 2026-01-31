@@ -16,7 +16,7 @@ MonoBehaviour:
   prefab: {fileID: 155752645470862190, guid: 499318b7e35f0fd4297a20ade4ae593d, type: 3}
   HP: 250
   Damage: 12
-  Speed: 5
+  Speed: 1
   SpawnInterval: 60
   Mulhp: 1.4
   Muldamage: 1.2
